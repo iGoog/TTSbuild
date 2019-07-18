@@ -11,7 +11,7 @@ A system with a NVIDIA GPU running a linux distribution with [NVIDIA Docker](htt
 ### Usage
 Initially you should be able to run `sudo ./all.sh` which runs three corresponding bash scripts for the build as follows:
  * `downloadModels.sh` - Downloads the released models from the TTS project into the mnt folder.
- * `dBuild.sh` - Builds the `Dockerfile` to `mozilla-tts`, which has been modified from the TTS project to include a working configuration.
+ * `dBuild.sh` - Builds the `Dockerfile` to `mozilla-tts-b`, which has been modified from the TTS project to include a working configuration.
  * `dRun.sh` - Runs the nvidia-docker container just built and starts the server with filesystem access to the configured `mnt` folder.
 
 ### Troubleshooting
